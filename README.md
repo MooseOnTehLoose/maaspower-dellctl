@@ -1,5 +1,6 @@
 # Features:
-Turn individual PoE ports on or of, and get the status of a given port
+Turn individual PoE ports on or of, and get the status of a given port for a Dell PoE Switch.
+Tested on a Dell 5524p
 
 ## Usage
 
