@@ -43,13 +43,13 @@ dell5524p#
 ```
 You can configure this value on Dell Switches from the UI under System - General - Asset - System Name
 
-USER - The ssh USER
-PASS - The ssh Password. If your switch supports public key authentication you do not need this. Dell Switches such as the 5500 series support PKI but only as a secondary auth mechanism, password is always required. 
-IPADDR - The IP address of the switch. You can add multiple addresses, configurable from the UI under System - IP Addressing - IPv4 Interface Parameters
+USER - The ssh USER  
+PASS - The ssh Password. If your switch supports public key authentication you do not need this. Dell Switches such as the 5500 series support PKI but only as a secondary auth mechanism, password is always required.  
+IPADDR - The IP address of the switch. You can add multiple addresses, configurable from the UI under System - IP Addressing - IPv4 Interface Parameters  
 
-You may want to set limits to the ports which can be controlled remotely and can do so via the below values:
-PORTSTART="1"
-PORTEND="24"
+You may want to set limits to the ports which can be controlled remotely and can do so via the below values:  
+PORTSTART="1"  
+PORTEND="24"  
 
 
 ## Installation:
