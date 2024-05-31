@@ -1,7 +1,7 @@
 # Features:
 Turn individual PoE ports on or of, and get the status of a given port for a Dell PoE Switch.
 
-Designed for use with https://github.com/gilesknap/maaspower
+Designed for use with https://github.com/gilesknap/maaspower  
 Tested on a Dell 5524p
 
 ## Usage
