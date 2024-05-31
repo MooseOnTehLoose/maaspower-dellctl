@@ -1,0 +1,25 @@
+#!/usr/bin/expect -f
+#
+#Status Querying for PoE Switches for MaaSPower: https://gilesknap.github.io/maaspower/main/index.html
+#
+#Written by Tony Windebank
+
+set SWITCH [lindex $argv 0]
+set USER [lindex $argv 1]
+set PASS [lindex $argv 2]
+set IPADDR [lindex $argv 3]
+set PORT [lindex $argv 4]
+
+set timeout -1
+
+spawn ssh -o HostKeyAlgorithms=+ssh-rsa -o KexAlgorithms=diffie-hellman-group-exchange-sha1 $IPADDR -tt
+match_max 100000
+expect "User Name:"
+send -- "$USER\r"
+expect "Password:"
+send -- "$PASS\r"
+expect "$SWITCH"
+send -- "show power inline gigabitethernet 1/0/$PORT\r"
+expect "$SWITCH"
+send -- "exit\r"
+expect eof
