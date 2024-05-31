@@ -56,4 +56,7 @@ PORTEND="24"
 
 
 ## Installation:
-Place poe.sh and status.exp in the root of your maaspower folder. 
+Place config.yanml, poe.sh and status.exp in the root of your maaspower folder. 
+Start maaspower using the sample config.yaml provided:
+
+```maaspower run config.yaml```
