@@ -59,7 +59,7 @@ PORTEND="24"
 
 Follow maaspower installation instructions here: https://gilesknap.github.io/maaspower/main/tutorials/installation.html
 
-Place config.yanml, poe.sh and status.exp in the root of your maaspower folder. 
+Place config.yaml, poe.sh and status.exp in the root of your maaspower folder. 
 Start maaspower using the sample config.yaml provided:
 
 ```./maaspower run config.yaml```
