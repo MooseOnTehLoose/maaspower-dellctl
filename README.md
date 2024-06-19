@@ -62,4 +62,4 @@ Follow maaspower installation instructions here: https://gilesknap.github.io/maa
 Place config.yaml, poe.sh and status.exp in the root of your maaspower folder. 
 Start maaspower using the sample config.yaml provided:
 
-```./maaspower run config.yaml```
+```maaspower run config.yaml```
